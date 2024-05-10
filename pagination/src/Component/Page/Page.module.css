@@ -1,8 +1,10 @@
 .heading{
-    width:200px !important;
+    width:200vm !important;
     height:40%;
     border: 1px solid black;
     padding:40px;
     background-color: blue;
+    justify-content: center;
+    align-items: center;
 
 }

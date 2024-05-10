@@ -46,6 +46,7 @@ function Page() {
 
   return (
     <div>
+        <h1>Employee Data Table</h1>
       <table >
         <thead className={styles.heading} >
           <tr >
