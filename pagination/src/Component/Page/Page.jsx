@@ -45,9 +45,9 @@ function Page() {
   const endIndex = Math.min(startIndex + 10, employees.length);
 
   return (
-    <div>
+    <div className={styles.tableContainer}>
         <h1>Employee Data Table</h1>
-      <table >
+      <table className={styles.table}>
         <thead className={styles.heading} >
           <tr >
           <th>Id</th>
@@ -73,7 +73,7 @@ function Page() {
           )}
         </tbody>
       </table>
-      <div>
+      <div className={styles.pagination}>
         <button onClick={prevPage} disabled={currentPage === 1}>
           Previous
         </button>
